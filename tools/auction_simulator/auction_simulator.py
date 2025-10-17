@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Simple foreclosure auction simulator for Hwaseong-si properties.
 
 This module contains a small dataset with fictional apartment and detached house

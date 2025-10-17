@@ -1,6 +1,6 @@
 # Auction Simulator for Hwaseong Properties
 
-This folder contains a lightweight Python script that can be used to explore
+This folder contains a lightweight Python 3 script that can be used to explore
 fictional foreclosure auction scenarios for apartments and detached houses in
 Hwaseong-si, Gyeonggi-do.
 
@@ -14,9 +14,16 @@ Hwaseong-si, Gyeonggi-do.
 
 ## Usage
 
+> **Python requirement**: The CLI is written for Python 3.9+ and relies only on
+> the standard library. Activate your Python environment before running the
+> commands below.
+
 ```bash
+# List apartments or houses in the built-in dataset
 python auction_simulator.py list --type apartment
 python auction_simulator.py list --type house
+
+# Simulate how a predicted winning bid distributes among liens
 python auction_simulator.py simulate APT-001 --price 325000000
 ```
 
